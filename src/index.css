@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #b70011;
+  --color-primary-container: #dc2626;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #fff6f5;
+  --color-primary-fixed: #ffdad6;
+  --color-primary-fixed-dim: #ffb4ab;
+  --color-on-primary-fixed: #410002;
+  --color-on-primary-fixed-variant: #93000b;
+
+  --color-secondary: #b02d29;
+  --color-secondary-container: #ff665c;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #690007;
+  --color-secondary-fixed: #ffdad6;
+  --color-secondary-fixed-dim: #ffb4ac;
+
+  --color-tertiary: #00682e;
+  --color-tertiary-container: #1a8340;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #e7ffe5;
+  --color-tertiary-fixed: #95f8a7;
+  --color-tertiary-fixed-dim: #79db8d;
+  --color-on-tertiary-fixed: #00210a;
+  --color-on-tertiary-fixed-variant: #005323;
+
+  --color-surface: #faf8ff;
+  --color-surface-dim: #d2d9f4;
+  --color-surface-bright: #faf8ff;
+  --color-surface-variant: #dae2fd;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3ff;
+  --color-surface-container: #eaedff;
+  --color-surface-container-high: #e2e7ff;
+  --color-surface-container-highest: #dae2fd;
+  --color-surface-tint: #bf0715;
+
+  --color-on-surface: #131b2e;
+  --color-on-surface-variant: #5c403c;
+  --color-inverse-surface: #283044;
+  --color-inverse-on-surface: #eef0ff;
+
+  --color-outline: #916f6b;
+  --color-outline-variant: #e6bdb8;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-background: #faf8ff;
+  --color-on-background: #131b2e;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-margin: 2rem;
+  --spacing-margin-mobile: 1rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+}
+
+/* Custom typography classes matching design specification */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #131b2e;
+  background-color: #faf8ff;
+}
+
+.font-headline-xl {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+@media (max-width: 640px) {
+  .font-headline-xl {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+  }
+}
+
+.font-headline-lg {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .font-headline-lg {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.font-headline-md {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.font-headline-sm {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.font-body-lg {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-body-md {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-body-sm {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-label-lg {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+
+.font-label-md {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.font-label-sm {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  line-height: 1;
+}

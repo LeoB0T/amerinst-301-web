@@ -1,0 +1,6 @@
+{
+  "name": "Grupo Scout Amerinst 301",
+  "description": "Plataforma web y sistema de gestión de jefatura del Grupo Scout Amerinst 301 de La Paz, Bolivia. Fundado en 1912.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
